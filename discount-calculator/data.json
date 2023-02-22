@@ -2,7 +2,7 @@
 	"labels": {
 		"pageTitle": "Tuition fee",
 		"introduction": [
-			"We offer discounted tuition fees to our alumni, and to our members of staff and their family members. We also offer a 2% discount to all students who pay their tuition fee in full before the due date on their invoice.",
+			"We offer discounted tuition fees to our alumni, and to our members of staff and their family members.",
 			"To see how much you could save, enter the cost of your tuition fees below, then select the discounts that apply to you."
 		],
 		"baseCostPrompt": "Tuition fee amount",
@@ -28,22 +28,6 @@
 				},
 				{
 					"name": "None",
-					"proportionDiscount": 0
-				}
-			]
-		},
-		{
-			"name": "2% prompt payment discount",
-			"description": "All students paying their own fees can save 2% on their tuition fees by paying the full fee before the due date.",
-			"discountLabel": "Prompt payment discount",
-			"activeDiscount": 0,
-			"options": [
-				{
-					"name": "Yes",
-					"proportionDiscount": 0.02
-				},
-				{
-					"name": "No",
 					"proportionDiscount": 0
 				}
 			]
